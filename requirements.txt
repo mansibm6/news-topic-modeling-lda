@@ -1,0 +1,13 @@
+# Direct dependencies. Resolve in a separate Python 3.11 environment per project.
+# Tested-library lower bounds are not a complete reproducibility/security lock.
+gensim>=4.4.0,<5
+ipykernel
+jupyterlab
+matplotlib>=3.11.2,<4
+nltk>=3.10.3,<4
+num2words>=0.5.14,<1
+pandas>=3.0.6,<4
+pyLDAvis>=3.4.1,<4
+scikit-learn>=1.9.1,<2
+seaborn>=0.13.2,<1
+wordcloud
